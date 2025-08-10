@@ -20,7 +20,7 @@ int main(void)
 	//Legal
 	int _100_bottles;
 	//Legal
-	int one_hundred_bottles;
+	int one__hundred__bottles;
 	//Legal
 	int bottles_by_the_hundred_;
 
