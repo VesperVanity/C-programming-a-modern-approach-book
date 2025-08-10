@@ -3,7 +3,7 @@
 *Chapter 2 - C Fundamentals - Exercise 3.
 *File created: 10/08/2025
 *File last modified: 10/08/2025
-*Name: dweight_condensed
+*Name: dweight_condensed.c
 *Purpose: Condense the dweight.c program by (1) replacing the assignments to height,
 		  length, and width with initializers and (2) removing the weight variable,
 		  instead calculating (volume + 165) / 166 within the last printf
@@ -21,6 +21,6 @@ int main(void)
 	printf("Dimensions: %dx%dx%d\n", length, width, height);
 	printf("Volume (cubic inches): %d\n", volume);
 	printf("Dimensional weight (pounds): %d\n", (volume + 165) / 166);
-	
+
 	return 0;
 }
