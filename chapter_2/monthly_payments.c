@@ -30,17 +30,17 @@ int main(void)
 	scanf("%f", &user_monthly_payment);
 
 	float current_balance = 0.0f;
+	float monthly_interest_rate = (user_interest_rate / 100) / 12;
 	current_balance = user_loan - user_monthly_payment;
-	printf("%f\n", current_balance);
+	current_balance += user_loan * monthly_interest_rate;
 
-	float monthly_interest_rate = user_interest_rate / user_loan * 100 / 12;
-	printf("%f\n", monthly_interest_rate);
+	float first_rate_balance = current_balance;
+	float second_rate_balance = (first_rate_balance - user_monthly_payment) + (first_rate_balance * monthly_interest_rate);
+	float third_rate_balance = (second_rate_balance - user_monthly_payment) + (second_rate_balance * monthly_interest_rate);
 
-	float first_monthly_rate = 0.0f;
-	first_monthly_rate = current_balance;
-	first_monthly_rate += current_balance * monthly_interest_rate;
-
-	printf("%s%.2f\n", "Balance remaining after first payment: $", first_monthly_rate);
+	printf("%s%.2f\n", "Balance remaining after first payment: $", first_rate_balance);
+	printf("%s%.2f\n", "Balance remaining after second payment: $", second_rate_balance);
+	printf("%s%.2f\n", "Balance remaining after third payment: $", third_rate_balance);
 
 	return 0;
 }
