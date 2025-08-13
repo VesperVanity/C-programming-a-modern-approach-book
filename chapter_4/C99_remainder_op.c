@@ -3,13 +3,8 @@
 *Chapter 4 - Expressions - Exercise 5.
 *File created: 13/08/2025
 *File last modified: 13/08/2025
-*Name: C89_remainder_op.c
-*Purpose: What is the value of each of the following expressions in C89?
-		  (Give all possible values if an expression may have more than one value)
-		  (a) 8 % 5
-		  (b) -8 % 5
-		  (c) 8 % -5
-		  (d) -8 % - 5
+*Name: C99_remainder_op.c
+*Purpose: Repeat exercise 5. for C99
 *Author: VesperVanity (VV) https://github.com/VesperVanity
 */
 #include <stdio.h>
@@ -22,6 +17,11 @@ int main(void)
 		(c) is 3
 		(d) is -3
 	*/
+
+	//(a) is still 3
+	//(b) is still -3
+	//(c) is still 3
+	//(d) is still -3
 
 	int exp_1 = -8;
 	int exp_2 = -5;
