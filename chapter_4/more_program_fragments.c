@@ -27,7 +27,7 @@ int main(void)
 	//(a) i is 63, j is 8
 	//(b) i is 3, j is 2, k is 1
 	//(c) i is 3, j is 2, k is 1
-	//(c) i is 0, j is 0, k is 0
+	//(d) i is 0, j is 0, k is 0
 
 	int i = 0, j = 0, k = 0;
 	i = 2; 
