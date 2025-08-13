@@ -1,6 +1,6 @@
 /*
 *C Programming: A Modern Approach - K.N.King
-*Chapter 4 - Expressions - Exercise 5.
+*Chapter 4 - Expressions - Exercise 6.
 *File created: 13/08/2025
 *File last modified: 13/08/2025
 *Name: C99_remainder_op.c
