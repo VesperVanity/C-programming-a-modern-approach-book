@@ -23,8 +23,6 @@ int main(void)
 	//(c) is still -1
 	//(d) is still 1
 
-	
-
 	int exp_1 = -8;
 	int exp_2 = -5;
 
