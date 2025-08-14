@@ -1,8 +1,8 @@
 /*
 *C Programming: A Modern Approach - K.N.King
 *Chapter 4 - Expressions - Project 1.
-*File created: 13/08/2025
-*File last modified: 13/08/2025
+*File created: 14/08/2025
+*File last modified: 14/08/2025
 *Name: reverse_two_numbers.c
 *Purpose: Write a program that asks the user to enter a two-digit number, then
 		  prints the number with its digits reversed
