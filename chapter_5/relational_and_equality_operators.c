@@ -3,7 +3,7 @@
 *Chapter 5 - Selection Statements - Exercise 1.
 *File created: 15/08/2025
 *File last modified: 18/08/2025
-*Name: if_statement_test.c
+*Name: relational_and_equality_operators.c
 *Purpose: The following program fragments illustrate the relational and
 		  equality operators
 		  Show the output produced by each, assuming that
