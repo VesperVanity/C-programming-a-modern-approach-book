@@ -2,7 +2,7 @@
 *C Programming: A Modern Approach - K.N.King
 *Chapter 5 - Selection Statements - Project 4.
 *File created: 27/08/2025
-*File last modified: 27/08/2025
+*File last modified: 28/08/2025
 *Name: simple_beaufort_scale.c
 *Purpose: Here's a simplified version of the Beaufort scale, which is used to 
 		  estimate wind force:
